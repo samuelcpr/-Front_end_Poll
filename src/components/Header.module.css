@@ -1,3 +1,17 @@
-* {
-	margin: 0;
+header {
+	background: #333;
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.container {
+
+}
+.containerMenu {
+
+}
+
+.menu {
+
 }
