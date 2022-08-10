@@ -1,17 +1,113 @@
+
 header {
-	background: #333;
-	height: 80px;
+margin: 0;
+padding: 0;
+height: 200vh;
+}
+.styled.containerBodyi {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-}
-.container {
 
 }
-.containerMenu {
-
+.nav {
+	position: fixed;
+	height: 4rem;
+  width: 100%;
+	display: grid;
+  grid-template-columns: 35% 45% 10%;
+	align-items: center;
+	background-color: #fff;
+}
+.nav img li {
+	position: fixed;
 }
 
-.menu {
-
+img {
+align-items: center;
+margin-left: 18rem;
 }
+
+.ulmenu {
+	display:flex;
+	align-items: center;
+	margin-left: 10rem;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0 2rem;
+}
+a {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+		color: #A3A6A5;
+}
+
+
+.a {
+	display: flex;
+	justify-content: center;
+	background-color: #F4B112;
+	color: rgba(255,255,255,.7) !important;
+	padding: 1rem 1rem;
+	border: none;
+	border-bottom: none;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+iframe {
+	position: absolute;
+	z-index: 0;
+	width:
+	2183.2px;
+	height: 1372px;
+	 top: 0px;
+	 left: 0px;
+	 overflow: hidden;
+	 opacity: 1;
+	 user-select: none;
+	 margin-top: -381px;
+	 margin-left: -278.6px;
+	 transition-property: opacy;
+	 transition-duration: 1000ms
+}
+.item1A {
+  background-color: transparent;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.item1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent{
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdowncontent a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover {background-color: black;}
+
+.item1:hover .dropdowncontent {display: block;}
+
+.item1:hover .item1A {background-color: transparent;}
