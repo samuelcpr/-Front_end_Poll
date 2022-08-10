@@ -1,6 +1,7 @@
-import { Header } from "./components/Header";
 
-import "../style/global.css"
+import "../style/global.scss"
+import { Header } from "./components/Header/index";
+
 
 
 
@@ -8,6 +9,7 @@ import "../style/global.css"
 	return(
 	<>
 <Header/>
+
 	</>
 	)
 

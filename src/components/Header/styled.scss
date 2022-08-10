@@ -1,0 +1,49 @@
+header {
+position: fixed;
+padding: 2rem;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+grid-template-columns: 65% 25% 5%;
+grid-template-rows: auto;
+background-color: black;
+  opacity: .8;
+}
+img {
+  width: auto;
+  display: flex;
+  justify-content: center;
+
+}
+nav {
+  width: auto;
+  display: flex;
+}
+
+ul a {
+  margin: 0 1rem;
+  text-decoration: none;
+  border-bottom: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: darkgray;
+}
+
+#button {
+  margin: 0 1rem;
+  color: black;
+  text-decoration: none;
+  border-bottom: none;
+  padding: 1rem 1rem;
+  border-radius: 19px;
+  background: url(../../../img/img-bg-2.jpg) !important;
+  background-size: cover;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,48 @@
+:root {
+  --whte: #ffffff;
+  --gray-100: #e1e1e6;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --green-500: #00875f;
+
+}
+:root #video {
+  position: absolute;
+  z-index: 0;
+  width: 2462.2px;
+  height: 1172px;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  opacity: 1;
+  user-select: none;
+  margin-top: -289px;
+  margin-left: -278.6px;
+  transition-property: opacity;
+  transition-duration: 1000ms
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+bbody{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: poppinsregular;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+body, input, textarea, button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
